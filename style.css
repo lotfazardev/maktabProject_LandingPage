@@ -35,6 +35,9 @@ button{
     justify-content: center;
     align-items: center;
 }
+.flex{
+    display: flex;
+}
 .flex-row-sb{
     display: flex;
     flex-direction: row;
@@ -56,6 +59,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.flex-col-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .max-height{
     height: 100%;
@@ -205,3 +214,108 @@ nav{
 .tips-description{
     margin-left: 1vw;
 }
+.middle-brown{
+    color:#352D20;
+}
+.middle-brown span{
+    margin-top: 1vh;
+}
+.middle-blue img{
+    object-fit: fill;
+}
+.middle-blue p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #46639A;
+    margin-top: 3vh;
+}
+.middle-blue h2{
+    font-size: 2rem;
+    margin-top: 0.75vh;
+    color: #122649;
+}
+.middle-blue span{
+    font-size: 0.75rem;
+    color: #7B6AB8;
+}
+.moreinfo{
+    margin-left: 10px;
+}
+.newpost-layout *{
+    margin-bottom: 1vh;
+}
+.newpost-layout h3{
+    font-size: 1.5rem;
+    color: #2F281E;
+}
+.newpost-layout h3:hover{
+    color: #432B99;
+    cursor: pointer;
+}
+.newpost-layout img{
+    object-fit: cover;
+}
+.newpost-layout span{
+    font-size: 0.85rem;
+    color: #5D523E;
+}
+.contact-us-upper-layout{
+    height: 40vh;
+    background-color: #432B99;
+    border-radius: 10px;
+}
+.contact-us-upper-layout span{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    margin-right: 4vw;
+}
+#entery-email{
+    background-color: transparent;
+    border: none;
+    border: 2px solid #A092CB;
+    border-radius:4px;
+    padding: 0.5rem 1rem;
+}
+#entery-email img{
+    padding-left: 20px;
+    border-left: solid 2px #A092CB;
+}
+#entery-email input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.contact-us-upper-layout input::placeholder{
+    color: #A092CB;
+}
+#contact-us-bg1{
+    bottom: 0;
+    left: 0;
+}
+#contact-us-bg2{
+    top: 0;
+    right: 0;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+hr{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer div a{
+    display: block;
+    color: #7F766A;
+    font-size: 0.9rem;
+    margin-bottom: 1.5vh;
+}
+#footer div h3{
+    margin-bottom: 4vh;
+    color: #302A20;
+}
+#footer div span{
+    color: #7F766A;
+}
+
